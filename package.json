@@ -1,6 +1,6 @@
 {
   "name": "parchment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "优雅的 Markdown 阅读器",
   "main": "main.js",
   "scripts": {
