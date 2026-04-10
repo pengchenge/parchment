@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/icon.svg" width="128" height="128" alt="Parchment Logo">
+<img src="assets/icon.png" width="128" height="128" alt="Parchment Logo">
 
 # Parchment
 
