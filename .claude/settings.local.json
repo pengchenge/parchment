@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm config:*)",
+      "Bash(export ELECTRON_MIRROR=https://npmmirror.com/mirrors/electron/)",
+      "Bash(rm -rf C:/Users/pcg86/AppData/Local/electron-builder/Cache/winCodeSign)",
+      "Bash(mkdir -p C:/Users/pcg86/AppData/Local/electron-builder/Cache/winCodeSign/winCodeSign-2.6.0)",
+      "Bash(node convert-icon.js)",
+      "Bash(mkdir -p C:/Users/pcg86/AppData/Local/electron-builder/Cache/winCodeSign)",
+      "Bash(curl -L -o /tmp/winCodeSign.7z \"https://npmmirror.com/mirrors/electron-builder-binaries/winCodeSign-2.6.0/winCodeSign-2.6.0.7z\")",
+      "Read(//c/Users/pcg86/AppData/Local/electron-builder/Cache/winCodeSign/**)",
+      "Bash(C:/Users/pcg86/markdown-viewer/node_modules/7zip-bin/win/x64/7za.exe x:*)",
+      "Bash(\"C:/Users/pcg86/markdown-viewer/dist/win-unpacked/Parchment.exe\")",
+      "Bash(rm -rf C:/Users/pcg86/markdown-viewer/dist)",
+      "Bash(export ELECTRON_BUILDER_BINARIES_MIRROR=https://npmmirror.com/mirrors/electron-builder-binaries/)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
