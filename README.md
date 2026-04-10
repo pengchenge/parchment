@@ -1,66 +1,72 @@
-# Parchment - 优雅的 Markdown 阅读器
+<div align="center">
 
-一个基于 Electron 的桌面 Markdown 查看器，支持优雅的书籍风格界面。
+<img src="assets/icon.svg" width="128" height="128" alt="Parchment Logo">
 
-![Parchment](assets/icon.svg)
+# Parchment
+
+**优雅的 Markdown 阅读器**
+
+一个轻量级的桌面 Markdown 查看器，带来沉浸式的阅读体验
+
+[下载最新版本](../../releases) · [功能介绍](#功能特点) · [使用指南](#使用指南)
+
+</div>
+
+---
 
 ## 功能特点
 
-- 🎨 **优雅界面** - 精美的书籍风格排版设计
-- 📂 **文件关联** - 右键 .md 文件，选择"打开方式"即可使用
-- 📑 **目录导航** - 自动生成侧边栏目录，快速跳转章节
-- ⌨️ **快捷键** - Ctrl+O 快速打开文件
-- 🖥️ **跨平台** - 支持 Windows
+| 特性 | 描述 |
+|------|------|
+| 🎨 **优雅界面** | 精美的羊皮纸书籍风格设计，沉浸式阅读体验 |
+| 📂 **文件关联** | 支持 Windows "打开方式"，右键 .md 文件即可用 Parchment 打开 |
+| 📑 **目录导航** | 自动生成侧边目录，快速跳转章节 |
+| ⌨️ **快捷键** | `Ctrl+O` 快速打开文件 |
+| 🚀 **轻量便携** | 无需安装，解压即用 |
 
 ## 下载安装
 
-### Windows
+### Windows 用户
 
-1. 前往 [Releases](../../releases) 页面下载最新版本的 `Parchment-x.x.x-win.zip`
-2. 解压到任意目录（如 `C:\Program Files\Parchment`）
-3. 双击 `Parchment.exe` 运行
+1. 前往 [Releases](../../releases) 页面下载最新版本
+2. 解压 ZIP 文件到任意目录（推荐：`C:\Program Files\Parchment`）
+3. 双击 `Parchment.exe` 即可运行
 
-### 设置"打开方式"
+> 💡 **提示**：应用无需安装，解压后直接运行，不占用系统资源
 
-安装后，可以将 Parchment 设置为 .md 文件的默认打开方式：
+## 使用指南
 
-1. 右键任意 .md 文件 → **打开方式** → **选择其他应用**
-2. 点击 **更多应用** → **在此电脑上查找其他应用**
-3. 选择解压目录中的 `Parchment.exe`
-4. 勾选 **始终使用此应用打开 .md 文件**
+### 设置默认打开方式
 
-## 开发
+想让 .md 文件默认用 Parchment 打开？简单几步：
 
-### 环境要求
+1. 右键任意 `.md` 文件
+2. 选择 **打开方式** → **选择其他应用**
+3. 点击 **更多应用** → **在此电脑上查找其他应用**
+4. 找到并选择 `Parchment.exe`
+5. 勾选 ✅ **始终使用此应用打开 .md 文件**
 
-- Node.js 18+
-- npm
+### 快捷操作
 
-### 本地运行
+| 快捷键 | 功能 |
+|--------|------|
+| `Ctrl + O` | 打开文件 |
+| 目录点击 | 快速跳转章节 |
 
-```bash
-# 安装依赖
-npm install
+### 界面预览
 
-# 运行开发版本
-npm start
+打开 Markdown 文件后，您将看到：
 
-# 打包
-npm run build:win
-```
+- 📖 左侧：自动生成的目录导航
+- 📄 中央：羊皮纸风格的优雅排版
+- 🎯 底部：当前文件名提示
 
-### 发布新版本
+---
 
-```bash
-# 更新版本号
-npm version 1.0.1
+<div align="center">
 
-# 推送标签，触发自动构建
-git push origin v1.0.1
-```
+**享受阅读**
 
-GitHub Actions 会自动构建并发布到 Releases 页面。
+Made with ❤️ by [pengchenge](https://github.com/pengchenge)
 
-## 许可证
-
-MIT
+</div>
