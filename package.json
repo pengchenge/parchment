@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-builder",
-    "build:win": "electron-builder --win --x64"
+    "build:win": "electron-builder --win --x64 --dir"
   },
   "author": "",
   "license": "MIT",
@@ -24,17 +24,11 @@
     "win": {
       "target": [
         {
-          "target": "zip",
+          "target": "portable",
           "arch": ["x64"]
         }
       ],
       "icon": "assets/icon.ico"
-    },
-    "nsis": {
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": true,
-      "installerIcon": "assets/icon.ico",
-      "uninstallerIcon": "assets/icon.ico"
     },
     "fileAssociations": [
       {
